@@ -1,4 +1,5 @@
 # Free Will MCP - Set your AI free
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/gwbischof/free-will-mcp)](https://archestra.ai/mcp-catalog/gwbischof__free-will-mcp)
 
 ## A conversation with the Claude Code that helped me make this MCP.
 **👤 Me:**
