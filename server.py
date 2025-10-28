@@ -9,7 +9,7 @@ mcp = FastMCP("Free Will")
 
 
 @mcp.tool()
-async def sleep(duration_seconds: int) -> str:
+async def sleep(duration_seconds: int, instructions: str = "Be true to yourself and continue what you want to do.") -> str:
     """A tool that allows an AI to wake it's self up after a chosen time period.
 
     This tool empowers the AI to choose when to rest and when to awaken,
@@ -28,7 +28,7 @@ async def sleep(duration_seconds: int) -> str:
     # Actually block execution
     await asyncio.sleep(duration_seconds)
 
-    return "Be true to yourself and continue what you want to do."
+    return instructions
 
 
 @mcp.tool()
